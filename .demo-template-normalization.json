@@ -1,28 +1,25 @@
 {
   "actionIds": [
     "action:68746e2530a1bafbe501",
-    "action:86a4854011406546e1c7",
+    "action:a983e94907e7a3908d8c",
     "action:a69ad916937f4560a95d",
     "action:f9c0663309f473184b84",
     "action:a6ee96dafcd52422108c",
     "action:b4a11fe945512ad05a52",
     "action:7eaf1dfc1701edc485f0",
-    "action:f2a12b9e58febf1afcae",
-    "action:c4f88a699683279b63b0",
-    "action:bca169f23d4687f454d8",
-    "action:5814e57ed1fccd1036ba",
-    "action:f375c5fd77dfd4fd68a6",
+    "action:8c33f9d2e682f003618a",
+    "action:3462eeccd6702a0003fd",
     "action:08ca076922c1887f9aad",
     "action:7634a1f7888a049ff09e"
   ],
-  "attestationId": "attestation:d6987bbac5cf4f0d1626",
+  "attestationId": "attestation:23ab611881406c9587fb",
   "baselineDigest": "7a759b0a11a3866ea7216c45f802e30fa070a632210daa4012dff35c70b27f35",
   "baselineVersion": "2026.10.16.14",
   "binding": {
     "defaultBranch": "main",
-    "defaultHeadSha": "33a14366b2213f423030259c6b69e24bc4a6876a",
-    "normalizationHeadSha": "33a14366b2213f423030259c6b69e24bc4a6876a",
-    "repository": "sanity-labs/fixture-ml-print-export"
+    "defaultHeadSha": "482959014e0c953f838fa38352bee33880d02463",
+    "normalizationHeadSha": "482959014e0c953f838fa38352bee33880d02463",
+    "repository": "sanity-labs/fixture-ml-undeclared"
   },
   "canonicalSurfaces": {
     "sdkApps": [],
@@ -48,11 +45,12 @@
       "keys": [
         "SANITY_STUDIO_APP_ID",
         "SANITY_STUDIO_DATASET",
+        "SANITY_STUDIO_HOST",
         "SANITY_STUDIO_PROJECT_ID",
         "SANITY_STUDIO_SSO_LOGIN_URL"
       ],
       "kind": "studio",
-      "surfaceId": "surface:c7a04f12c84e21f9df67",
+      "surfaceId": "surface:329abe8b15d1f6c454ea",
       "targetDirectory": "apps/studio"
     }
   ],
@@ -73,7 +71,7 @@
         }
       ],
       "surfaces": [
-        "surface:c7a04f12c84e21f9df67"
+        "surface:329abe8b15d1f6c454ea"
       ]
     },
     {
@@ -102,7 +100,21 @@
         }
       ],
       "surfaces": [
-        "surface:c7a04f12c84e21f9df67"
+        "surface:329abe8b15d1f6c454ea"
+      ]
+    },
+    {
+      "denied": false,
+      "key": "SANITY_STUDIO_HOST",
+      "provenance": [
+        {
+          "line": 11,
+          "path": "apps/studio/.env.example",
+          "source": "existing-example"
+        }
+      ],
+      "surfaces": [
+        "surface:329abe8b15d1f6c454ea"
       ]
     },
     {
@@ -110,7 +122,7 @@
       "key": "SANITY_STUDIO_PROJECT_ID",
       "provenance": [
         {
-          "line": 11,
+          "line": 14,
           "path": "apps/studio/.env.example",
           "source": "existing-example"
         },
@@ -136,7 +148,7 @@
         }
       ],
       "surfaces": [
-        "surface:c7a04f12c84e21f9df67"
+        "surface:329abe8b15d1f6c454ea"
       ]
     },
     {
@@ -144,23 +156,23 @@
       "key": "SANITY_STUDIO_SSO_LOGIN_URL",
       "provenance": [
         {
-          "line": 14,
+          "line": 17,
           "path": "apps/studio/.env.example",
           "source": "existing-example"
         },
         {
-          "line": 22,
+          "line": 21,
           "path": "apps/studio/sanity.config.ts",
           "source": "process-env-reference"
         },
         {
-          "line": 28,
+          "line": 27,
           "path": "apps/studio/sanity.config.ts",
           "source": "process-env-reference"
         }
       ],
       "surfaces": [
-        "surface:c7a04f12c84e21f9df67"
+        "surface:329abe8b15d1f6c454ea"
       ]
     }
   ],
@@ -168,10 +180,10 @@
     "apps/studio/sanity.blueprint.ts"
   ],
   "kind": "baseline-attestation",
-  "planId": "plan:b20219f0dc09727baeb7",
-  "reportId": "report:e4450ca5b296fde1edc4",
-  "resultingRepositoryHash": "86efbb59efe89673c90e53f8a16f3a3dbbe39d3d7759138976817b4816305057",
+  "planId": "plan:69e047d196b7db273f2c",
+  "reportId": "report:468c4558c3a0751e3068",
+  "resultingRepositoryHash": "85ebb1768568a2b6e1dac9a12c2e2b1d4d9ac4566e2e0c4975898c2272da3630",
   "schemaVersion": 2,
-  "sourceInventoryId": "inventory:a8169d7f1c8cdb96a98f",
-  "sourceRepositoryHash": "ea7812479368f73a1e9298990d5c4bc712a2764db05c5fec80bc87f26298f17e"
+  "sourceInventoryId": "inventory:ce423efc627baccf331c",
+  "sourceRepositoryHash": "76c2abbea62a29092cdbc47fb4d74eeb541e381ebd05b8ae04a387462242c6a9"
 }
