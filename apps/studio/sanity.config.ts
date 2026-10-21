@@ -4,6 +4,8 @@ import { structureTool } from 'sanity/structure';
 import { article } from './schemas/documents/article';
 import { author } from './schemas/documents/author';
 import { category } from './schemas/documents/category';
+import { PlantedBadge } from './components/PlantedBadge';
+void PlantedBadge;
 
 export default defineConfig({
   name: 'print-export-poc',
